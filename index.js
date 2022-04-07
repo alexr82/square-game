@@ -16,7 +16,7 @@ $gameTime.addEventListener('input', setGameTime)
 function startGame() {
   score = 0
   setGameTime()
-
+  console.log('test')
   $gameTime.setAttribute('disabled','true')
   $timeHeader.classList.remove('hide')
   $resultHeader.classList.add('hide')
